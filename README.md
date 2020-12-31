@@ -1,4 +1,4 @@
-# KFUPM Clubz
+# KFUPM Clubzz
   ![Java](https://img.shields.io/badge/Java-5181b8?style=flat&logo=java&logoColor=white)
   ![Javafx](https://img.shields.io/badge/Javafx-orange?style=flat)
   ![AWS RDS](https://img.shields.io/badge/-AWS_RDS-f0806c?style=flat)
