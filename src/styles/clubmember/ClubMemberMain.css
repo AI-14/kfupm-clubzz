@@ -1,0 +1,19 @@
+#rootPane {
+    -fx-background-color: #bdf0dd;
+}
+
+#ViewProjectBtn, #LeaveClubBtn, #SignOutBtn {
+    -fx-background-color: #38b2eb;
+    -fx-border-color: #2641f0;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #dff20a;
+}
+
+#ClubComboBox {
+-fx-background-color: #38b2eb;
+-fx-border-color: #2641f0;
+-fx-border-radius: 2px;
+-fx-border-width: 2px;
+
+}

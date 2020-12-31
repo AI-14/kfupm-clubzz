@@ -1,0 +1,11 @@
+#rootPane {
+    -fx-background-color: #f1effa;
+}
+
+#showTotalProjects, #backButton {
+    -fx-background-color: #396cdb;
+    -fx-border-color: #c0d100;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #d1e309 ;
+}

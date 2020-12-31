@@ -1,0 +1,11 @@
+#rootPane {
+    -fx-background-color: #fad9e9;
+}
+
+#backButton, #registerClubButton {
+    -fx-background-color: #a142eb;
+    -fx-border-color: #2641f0;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #dff20a;
+}

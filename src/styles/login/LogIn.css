@@ -1,0 +1,23 @@
+#rootPane {
+ -fx-background-color: #000000;
+ -fx-border-color: #009950; //#5e6660;
+ -fx-border-width: 2px;
+}
+
+#titleLabel {
+   -fx-text-fill: #086e1e;
+   -fx-font-size: 30px;
+   -fx-font-weight: bold;
+}
+
+#logInButton, #guestButton {
+    -fx-background-color: #24ad37;
+    -fx-border-color: #c0d100;
+    -fx-border-radius: 2px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #ffffff;
+}
+
+#userNameTextField, #passwordTextField {
+    -fx-text-fill: #eceda4;
+}

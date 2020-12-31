@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="700.0" stylesheets="@../../styles/sysadmin/MyAccount.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.sysadmin.MyAccountController">
+   <children>
+      <Label fx:id="titleLabel" layoutX="222.0" layoutY="14.0" prefHeight="65.0" prefWidth="260.0" text="System Admin">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="userNameTextField" focusColor="#d6d9ce" labelFloat="true" layoutX="248.0" layoutY="114.0" prefHeight="25.0" prefWidth="205.0" promptText="Username" unFocusColor="#d6d9ce" />
+      <JFXPasswordField fx:id="currentPasswordTextField" focusColor="#d6d9ce" labelFloat="true" layoutX="248.0" layoutY="171.0" prefHeight="25.0" prefWidth="205.0" promptText="Current Password" unFocusColor="#d6d9ce" />
+      <JFXPasswordField fx:id="newPasswordTextField" focusColor="#d6d9ce" labelFloat="true" layoutX="250.0" layoutY="225.0" prefHeight="25.0" prefWidth="205.0" promptText="New Password" unFocusColor="#d6d9ce" />
+      <JFXPasswordField fx:id="confirmNewPasswordTextField" focusColor="#d6d9ce" labelFloat="true" layoutX="250.0" layoutY="271.0" prefHeight="25.0" prefWidth="205.0" promptText="Confirm New Password" unFocusColor="#d6d9ce" />
+      <JFXButton fx:id="updateButton" layoutX="285.0" layoutY="334.0" onAction="#updateButtonAction" prefHeight="25.0" prefWidth="136.0" text="Update">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="backButton" layoutX="14.0" layoutY="14.0" onAction="#backButtonAction" prefHeight="25.0" prefWidth="77.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="msgLabel" layoutX="248.0" layoutY="389.0" prefHeight="36.0" prefWidth="205.0" />
+   </children>
+</AnchorPane>

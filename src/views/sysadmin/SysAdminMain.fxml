@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" stylesheets="@../../styles/sysadmin/SysAdminMain.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.sysadmin.SysAdminMainController">
+   <children>
+      <JFXButton fx:id="myAccountButton" layoutX="490.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#myAccountButtonAction" prefHeight="25.0" prefWidth="109.0" text="My Account" AnchorPane.bottomAnchor="462.0" AnchorPane.leftAnchor="490.0" AnchorPane.rightAnchor="101.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="signOutButton" layoutX="609.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#signOutButtonAction" prefHeight="25.0" prefWidth="77.0" text="Sign Out" AnchorPane.bottomAnchor="462.0" AnchorPane.leftAnchor="609.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="addClubButton" layoutX="14.0" layoutY="79.0" onAction="#addClubButtonAction" prefHeight="80.0" prefWidth="269.0" text="Add A Club " AnchorPane.bottomAnchor="341.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="417.0" AnchorPane.topAnchor="79.0">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="addClubMemberButton" layoutX="14.0" layoutY="289.0" onAction="#addClubMemberButtonAction" prefHeight="80.0" prefWidth="269.0" text="Add A Club Member" AnchorPane.bottomAnchor="131.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="417.0" AnchorPane.topAnchor="289.0">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="updateClubAdminButton" layoutX="14.0" layoutY="183.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#updateClubAdminButtonAction" prefHeight="80.0" prefWidth="269.0" text="Update Club Admin" AnchorPane.bottomAnchor="237.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="417.0" AnchorPane.topAnchor="183.0">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="computeStatsButton" layoutX="14.0" layoutY="385.0" onAction="#computeStatsButtonAction" prefHeight="80.0" prefWidth="269.0" text="Compute Statistics" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="417.0" AnchorPane.topAnchor="385.0">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <ImageView fx:id="sysAdminImage" fitHeight="225.0" fitWidth="269.0" layoutX="417.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/sysadminicon.png" />
+         </image></ImageView>
+      <FontAwesomeIconView glyphName="PLUS_SQUARE" layoutX="297.0" layoutY="126.0" size="22" style="-fx-fill: #eceda4;" />
+      <MaterialDesignIconView glyphName="ACCOUNT_SWITCH" layoutX="295.0" layoutY="231.0" size="22" style="-fx-fill: #eceda4;" />
+      <MaterialDesignIconView glyphName="ACCOUNT_PLUS" layoutX="295.0" layoutY="337.0" size="22" style="-fx-fill: #eceda4;" />
+      <MaterialDesignIconView glyphName="CHART_PIE" layoutX="295.0" layoutY="433.0" size="22" style="-fx-fill: #eceda4;" />
+   </children>
+</AnchorPane>

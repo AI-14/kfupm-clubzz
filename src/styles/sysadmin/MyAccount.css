@@ -1,0 +1,26 @@
+#rootPane {
+    -fx-background-color: #3d4252;
+}
+#titleLabel {
+    -fx-background-color:  #3d4252;
+    -fx-text-fill: #eceda4;
+}
+
+#msgLabel {
+    -fx-background-color:  #cef2d2;
+}
+
+#backButton, #updateButton {
+    -fx-background-color: #3d4252;
+    -fx-border-color: #eceda4;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #eceda4;
+}
+
+#userNameTextField, #currentPasswordTextField, #newPasswordTextField, #confirmNewPasswordTextField {
+    -fx-background-color: #3d4252;
+    -fx-text-fill: #eceda4;
+    -fx-prompt-text-fill: #d6d9ce;
+    -fx-font-size: 10pt;
+}

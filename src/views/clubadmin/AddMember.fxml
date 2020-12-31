@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="700.0" stylesheets="@../../styles/clubadmin/AddMember.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.clubadmin.AddMemberController">
+   <children>
+      <JFXComboBox fx:id="studentIDCombobox" labelFloat="true" layoutX="34.0" layoutY="84.0" prefHeight="25.0" prefWidth="255.0" promptText="Select Student ID" />
+      <JFXComboBox fx:id="projectNameCombobox" labelFloat="true" layoutX="34.0" layoutY="147.0" prefHeight="25.0" prefWidth="255.0" promptText="Select Project" />
+      <JFXDatePicker fx:id="fromDate" defaultColor="#4059a9" layoutX="34.0" layoutY="213.0" prefHeight="25.0" prefWidth="255.0" promptText="Select From date" />
+      <JFXDatePicker fx:id="toDate" defaultColor="#4059a9" layoutX="34.0" layoutY="280.0" prefHeight="25.0" prefWidth="255.0" promptText="Select To date" />
+      <JFXTextField fx:id="roleTextField" labelFloat="true" layoutX="34.0" layoutY="349.0" prefHeight="25.0" prefWidth="255.0" promptText="Enter role" />
+      <JFXButton fx:id="addButton" layoutX="360.0" layoutY="184.0" onAction="#addButtonAction" prefHeight="108.0" prefWidth="302.0" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="backButton" layoutX="14.0" layoutY="14.0" onAction="#backButtonAction" prefHeight="25.0" prefWidth="81.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></JFXButton>
+      <Label fx:id="msgLabel" layoutX="195.0" layoutY="428.0" prefHeight="25.0" prefWidth="302.0" />
+   </children>
+</AnchorPane>
