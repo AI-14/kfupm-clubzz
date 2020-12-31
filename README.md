@@ -19,5 +19,9 @@
 
 <img src="readme_res/Snap9.png" width="400"/> <img src="readme_res/Snap10.png" width="400"/> 
 
+## Project Partners/Contributors
+   - [Farhan AbdulQadir](https://github.com/Vegeterian)
+   - [AbdulJawad Mohammed](https://github.com/abbaddon1001)
+
 
 
