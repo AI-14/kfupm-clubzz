@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" stylesheets="@../../styles/sysadmin/AddClubMember.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.sysadmin.AddClubMemberController">
+   <children>
+      <JFXButton fx:id="backButton" layoutX="14.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#backButtonAction" prefHeight="25.0" prefWidth="77.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></JFXButton>
+      <JFXComboBox fx:id="clubComboBox" focusColor="#d6d9ce" labelFloat="true" layoutX="14.0" layoutY="81.0" prefHeight="25.0" prefWidth="235.0" promptText="Choose a club" unFocusColor="#d6d9ce" />
+      <JFXTextField fx:id="studentIdTextField" focusColor="#d6d9ce" labelFloat="true" layoutX="14.0" layoutY="148.0" prefHeight="25.0" prefWidth="235.0" promptText="Enter Student ID" unFocusColor="#d6d9ce" />
+      <JFXDatePicker fx:id="fromDateDatePicker" defaultColor="#eceda4" editable="false" layoutX="14.0" layoutY="215.0" prefHeight="35.0" prefWidth="272.0" promptText="From Date" />
+      <JFXDatePicker fx:id="toDateDatePicker" defaultColor="#eceda4" editable="false" layoutX="14.0" layoutY="277.0" prefHeight="35.0" prefWidth="272.0" promptText="To Date" />
+      <JFXComboBox fx:id="statusComboBox" focusColor="#d6d9ce" labelFloat="true" layoutX="14.0" layoutY="340.0" prefHeight="25.0" prefWidth="235.0" promptText="Select Status" unFocusColor="#d6d9ce" />
+      <JFXButton fx:id="addButton" layoutX="192.0" layoutY="398.0" onAction="#addButtonAction" prefHeight="25.0" prefWidth="95.0" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></JFXButton>
+      <Label fx:id="msgLabel" layoutX="192.0" layoutY="445.0" prefHeight="25.0" prefWidth="332.0" style="-fx-background-color: #cef2d2;" />
+      <JFXButton fx:id="editButton" layoutX="311.0" layoutY="398.0" onAction="#editButtonAction" prefHeight="25.0" prefWidth="95.0" text="Edit">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></JFXButton>
+      <JFXButton fx:id="saveButton" layoutX="429.0" layoutY="398.0" onAction="#saveButtonAction" prefHeight="25.0" prefWidth="95.0" text="Save">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

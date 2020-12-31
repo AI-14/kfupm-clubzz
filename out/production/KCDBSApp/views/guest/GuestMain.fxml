@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="500.0" prefWidth="700.0" stylesheets="@../../styles/guest/Guest.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.guest.GuestMainController">
+   <children>
+      <TableView fx:id="clubTable" layoutX="14.0" layoutY="75.0" prefHeight="410.0" prefWidth="465.0">
+        <columns>
+          <TableColumn fx:id="clubColumn" editable="false" prefWidth="156.5" text="Club " />
+          <TableColumn fx:id="descrColumn" prefWidth="266.0" text="Description" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="registerClubButton" layoutX="497.0" layoutY="444.0" onAction="#registerClubButtonAction" prefHeight="36.0" prefWidth="170.0" text="Register">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font></JFXButton>
+      <JFXDatePicker fx:id="fromDate" defaultColor="#a142eb" editable="false" layoutX="498.0" layoutY="74.0" prefHeight="25.0" prefWidth="179.0" promptText="From Date" />
+      <JFXDatePicker fx:id="toDate" defaultColor="#a142eb" editable="false" layoutX="498.0" layoutY="123.0" prefHeight="25.0" prefWidth="179.0" promptText="To Date" />
+      <JFXTextField fx:id="usernameTextField" focusColor="#a142eb" labelFloat="true" layoutX="497.0" layoutY="238.0" prefHeight="25.0" prefWidth="170.0" promptText="Enter student ID" unFocusColor="#a142eb" />
+      <JFXPasswordField fx:id="passwordTextField" focusColor="#a142eb" labelFloat="true" layoutX="497.0" layoutY="301.0" prefHeight="25.0" prefWidth="170.0" promptText="Password" unFocusColor="#a142eb" />
+      <JFXPasswordField fx:id="confirmPasswordTextField" focusColor="#a142eb" labelFloat="true" layoutX="497.0" layoutY="355.0" prefHeight="25.0" prefWidth="170.0" promptText="Confirm Password" unFocusColor="#a142eb" />
+      <JFXButton fx:id="backButton" layoutX="14.0" layoutY="25.0" onAction="#backButtonAction" prefHeight="25.0" prefWidth="66.0" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>

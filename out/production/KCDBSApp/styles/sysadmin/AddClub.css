@@ -1,0 +1,46 @@
+#rootPane {
+    -fx-background-color: #3d4252;
+}
+
+#msgLabel {
+    -fx-background-color:  #cef2d2;
+}
+
+#backButton, #addButton, #editButton, #saveButton {
+    -fx-background-color: #3d4252;
+    -fx-border-color: #eceda4;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #eceda4;
+}
+
+#clubNameTextfield, #clubAddressTextField, #clubPhoneTextField {
+    -fx-background-color: #3d4252;
+    -fx-text-fill: #eceda4;
+    -fx-prompt-text-fill: #d6d9ce;
+    -fx-font-size: 10pt;
+}
+
+#editClubComboBox, #deptComboBox, #statusComboBox, #clubDescrTextArea {
+    -fx-background-color: #3d4252;
+    -fx-border-color: #eceda4;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #d6d9ce;
+    -fx-prompt-text-fill: #d6d9ce;
+    -fx-font-size: 10pt;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #d6d9ce;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #2ebed1;
+}
+
+.combo-box {
+    -fx-text-fill: #d6d9ce;
+}
+
+
