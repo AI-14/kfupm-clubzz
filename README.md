@@ -9,6 +9,8 @@
    Build a full stack KFUPM club management system. For more details, see *project_docs* folder.
 
 ## Screenshots Of The Application
+<details>
+  <summary>Click to expand!</summary>
 <img src="readme_res/Snap1.png" width="400"/><img src="readme_res/Snap2.png" width="400"/>
 
 <img src="readme_res/Snap3.png" width="400"/> <img src="readme_res/Snap4.png" width="400"/> 
@@ -18,6 +20,7 @@
 <img src="readme_res/Snap7.png" width="400"/> <img src="readme_res/Snap8.png" width="400"/> 
 
 <img src="readme_res/Snap9.png" width="400"/> <img src="readme_res/Snap10.png" width="400"/> 
+</details>
 
 ## Project Partners/Contributors
    - [Farhan AbdulQadir](https://github.com/Vegeterian)
