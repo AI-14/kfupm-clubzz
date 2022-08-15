@@ -4,7 +4,7 @@
   ![MySQL](https://img.shields.io/badge/MySQL-yellow?style=flat&logo=mysql&logoColor=red)
   ![AWS RDS](https://img.shields.io/badge/-AWS_RDS-f0806c?style=flat)
   
-  Course Project: ICS 324/201 (Database Systems) - Build a full stack KFUPM club management system using databases.
+  Course Project: ICS 324/201 - Database Systems
 
 ## Description
    A full stack KFUPM club management system built using MySQL. For more details, see *project_docs* folder.
