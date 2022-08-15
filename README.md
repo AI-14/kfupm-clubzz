@@ -32,7 +32,7 @@
    - Download/clone this repository.
   
 2. Usage
-   - Run ````Main.java```` (src\application\Main.java).
+   - Run ````Main.java```` (src\app\Main.java).
 </details>
 
 ## Project Partners/Contributors
