@@ -1,12 +1,13 @@
 # KFUPM Clubzz
   ![Java](https://img.shields.io/badge/Java-5181b8?style=flat&logo=java&logoColor=white)
   ![Javafx](https://img.shields.io/badge/Javafx-orange?style=flat)
+  ![MySQL](https://img.shields.io/badge/MySQL-yellow?style=flat&logo=mysql&logoColor=red)
   ![AWS RDS](https://img.shields.io/badge/-AWS_RDS-f0806c?style=flat)
   
-  Course Project: ICS 324/201 - Build a full stack KFUPM club management system.
+  Course Project: ICS 324/201 (Database Systems) - Build a full stack KFUPM club management system using databases.
 
 ## Description
-   Build a full stack KFUPM club management system. For more details, see *project_docs* folder.
+   A full stack KFUPM club management system built using MySQL. For more details, see *project_docs* folder.
 
 ## Screenshots Of The Application
 <details>
