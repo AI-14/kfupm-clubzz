@@ -12,6 +12,8 @@
 ## Screenshots Of The Application
 <details>
   <summary>Click to expand!</summary>
+  <br/>
+  
 <img src="readme_res/Snap1.png" width="400"/><img src="readme_res/Snap2.png" width="400"/>
 
 <img src="readme_res/Snap3.png" width="400"/> <img src="readme_res/Snap4.png" width="400"/> 
