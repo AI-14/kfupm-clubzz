@@ -23,6 +23,18 @@
 <img src="readme_res/Snap9.png" width="400"/> <img src="readme_res/Snap10.png" width="400"/> 
 </details>
 
+## Installation And Usage
+<details>
+  <summary>Click to expand!</summary>
+  
+1. Installation
+   - Make sure you have Javafx and Java 8 installed on your machine.
+   - Download/clone this repository.
+  
+2. Usage
+   - Run ````Main.java```` (src\application\Main.java).
+</details>
+
 ## Project Partners/Contributors
    - [Farhan AbdulQadir](https://github.com/Vegeterian)
    - [AbdulJawad Mohammed](https://github.com/abbaddon1001)
