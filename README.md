@@ -30,6 +30,7 @@
   - `aws account` - for running AWS-RDS service (optional)
 - `git clone https://github.com/AI-14/kfupm-clubzz.git` - clones the repository
 - `cd kfupm-clubzz`
+- Run `src\app\Main.java`
 
 ## Project Partners/Contributors <a name="contributors"></a>
    - [Farhan AbdulQadir](https://github.com/Vegeterian)
