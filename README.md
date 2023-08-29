@@ -1,18 +1,17 @@
 # KFUPM Clubzz
-  ![Java](https://img.shields.io/badge/Java-5181b8?style=flat&logo=java&logoColor=white)
-  ![Javafx](https://img.shields.io/badge/Javafx-orange?style=flat)
-  ![MySQL](https://img.shields.io/badge/MySQL-yellow?style=flat&logo=mysql&logoColor=red)
-  ![AWS RDS](https://img.shields.io/badge/-AWS_RDS-f0806c?style=flat)
-  
+
   Course Project: ICS 324/201 - Database Systems
 
-## Description
+## Table of Contents
+1. [Description](#description)
+2. [Demo](#demo)
+3. [Installation and Usage](#installation-usage)
+4. [Project Partners/Contributors](#contributors)
+
+## Description <a name="description"></a>
    A full stack KFUPM club management system built using MySQL. For more details, see *project_docs* folder.
 
-## Screenshots Of The Application
-<details>
-  <summary>Click to expand!</summary>
-  <br/>
+## Demo <a name="demo"></a>
   
 <img src="readme_res/Snap1.png" width="400"/><img src="readme_res/Snap2.png" width="400"/>
 
@@ -23,21 +22,16 @@
 <img src="readme_res/Snap7.png" width="400"/> <img src="readme_res/Snap8.png" width="400"/> 
 
 <img src="readme_res/Snap9.png" width="400"/> <img src="readme_res/Snap10.png" width="400"/> 
-</details>
 
-## Installation And Usage
-<details>
-  <summary>Click to expand!</summary>
-  
-1. Installation
-   - Make sure you have Javafx and Java 8 installed on your machine.
-   - Download/clone this repository.
-  
-2. Usage
-   - Run ````Main.java```` (src\app\Main.java).
-</details>
+## Installation and Usage <a name="installation-usage"></a>
+- Requirements
+  - `java 8`
+  - `javafx`
+  - `aws account` - for running AWS-RDS service (optional)
+- `git clone https://github.com/AI-14/kfupm-clubzz.git` - clones the repository
+- `cd kfupm-clubzz`
 
-## Project Partners/Contributors
+## Project Partners/Contributors <a name="contributors"></a>
    - [Farhan AbdulQadir](https://github.com/Vegeterian)
    - [AbdulJawad Mohammed](https://github.com/abbaddon1001)
 
