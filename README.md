@@ -25,7 +25,7 @@
 
 ## Installation and Usage <a name="installation-usage"></a>
 - Requirements
-  - `java 8`
+  - `java >= 1.8`
   - `javafx`
   - `aws account` - for running AWS-RDS service (optional)
 - `git clone https://github.com/AI-14/kfupm-clubzz.git` - clones the repository
